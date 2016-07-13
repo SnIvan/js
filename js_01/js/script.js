@@ -2,10 +2,14 @@ var insertedNumber = prompt('Число', '')
 var insertedPow = prompt('Степень ', '');
 
 function power(insertedNumber, insertedPow) {
-    var pow = insertedNumber;
-    for (var i = 1; i < insertedPow; i++) {
+    if (insertedPow == 0){
+    	var pow = 1;
+    } else{
+    	var pow = insertedNumber;
+    	for (var i = 1; i < insertedPow; i++) {
         pow *= insertedNumber;
-    }
+    	}
+	}
     return pow;
 }
 
