@@ -5,6 +5,7 @@ var fourthName = prompt('Insert fourth name ', '');
 var fifthName = prompt('Insert fifth name ', '');
 
 var arrNames = [];
+var n = 5;
 
 function pushNames(arrNames){
 	arrNames.push(firstName);
@@ -13,16 +14,25 @@ function pushNames(arrNames){
 	arrNames.push(fourthName);
 	arrNames.push(fifthName);
 }
-
 pushNames(arrNames);
 
-var userName = prompt('Insert your name ', '');
+console.log(arrNames); 
 
-if (arrNames.indexOf(userName, 0)){
-	alert(userName);
-} else {
-	alert('no name');
+var userName = prompt('Insert your name', ''); 
+
+for (n = 0; n < arrNames.length; n++) { 
+	if (userName == arrNames[n]) { 
+		var result = true; 
+		break;
+	} else { 
+		result = false; 
+	} 
+} 
+
+if (result === true) { 
+	alert(userName + ', вы успешно вошли!'); 
+} else { 
+	alert('Wrong name!'); 
 }
-
 
 
