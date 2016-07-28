@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+}
+
+span {
+	font-size: 40px;
+}
+
+.wrapper {
+	width: 500px;
+	height: 300px;
+	margin: 55px auto;
+	background-color: #31b0d5;
+}
+
+.flex {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.for_count {
+	width: 400px;
+	height: 140px;
+	margin: 50px auto;
+	padding-top: 40px;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-size: 40px;
+}
+
+.splits {
+	margin: 20px auto;
+	padding-left: 115px;
+}
+
+.btn-size {
+	width: 100px;
+	height: 35px;
+	margin-left: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	background-color: #31b0d5;
+}
