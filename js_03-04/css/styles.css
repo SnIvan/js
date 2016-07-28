@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 25px 0 60px;
+	color: #000000;
+	text-align: center;
+	line-height: 40px;
+}
+p {
+	margin: 40px 5px 5px 55px;
+	font-size: 16px;
+	line-height: 24px;
+}
+li {
+	list-style: none;
+}
+input {
+	margin: 5px 8px 5px 25px;
+}
+button {
+	display: block;
+	margin: 50px auto;
+	width: 400px;
+	height: 35px;
+	border: 1px solid #1c3819;
+	border-radius: 8px;
+	font-size: 16px;
+}
