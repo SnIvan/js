@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*First part of MODULE 7-8 - TABS*/
+
+.nav-tabs li{
+	width: 110px;
+	text-align: center;
+}
+
+.tabs-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab {
+	height: 200px;
+}
+
+#tabs-1 {
+	display: block;   
+}
+
+/*Second part of MODULE 7-8 - tooltips*/
+
+label {
+	display: inline-block; width: 5em;
+}
+
+fieldset div {
+	margin-bottom: 2em;
+}
+
+fieldset .help {
+	display: inline-block;
+}
+
+#hint {
+	display: none;
+	position: absolute;
+	padding: 3px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff4de;
+	box-shadow: 0px 0px 10px -1px rgba(158,156,158,0.75);
+	-webkit-box-shadow: 0px 0px 10px -1px rgba(158,156,158,0.75);
+	-moz-box-shadow: 0px 0px 10px -1px rgba(158,156,158,0.75);
+}
