@@ -1,0 +1,31 @@
+{
+  "name": "js-19-20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnIvan/js_19-20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnIvan/js/issues"
+  },
+  "homepage": "https://github.com/SnIvan/js",
+  "devDependencies": {
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.16.1"
+  }
+}
