@@ -1,0 +1,34 @@
+{
+  "name": "js-21-22",
+  "version": "1.0.0",
+  "description": "ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnIvan/js_21-22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnIvan/js/issues"
+  },
+  "homepage": "https://github.com/SnIvan/js",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "lodash": "^4.16.1"
+  }
+}
